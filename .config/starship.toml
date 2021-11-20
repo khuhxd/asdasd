@@ -1,0 +1,8 @@
+add_newline = true
+
+[character]
+success_symbol = "[  ](green)"
+
+[directory]
+truncation_symbol = ".../"
+home_symbol = "  "
