@@ -3,6 +3,7 @@ local packer = require 'packer'
 packer.init {}
 packer.reset()
 
+require 'plugins.load'
 require 'plugins.cmp-buffer_conf'
 require 'plugins.cmp-lsp_conf'
 require 'plugins.cmp-luasnip_conf'
@@ -21,4 +22,4 @@ require 'plugins.treesitter_conf'
 --require 'plugins.vimwiki_conf'
 require 'plugins.lsp-installer_conf'
 require 'plugins.cmp_conf'
-require 'plugins.which-key_conf'
+--require 'plugins.which-key_conf'
