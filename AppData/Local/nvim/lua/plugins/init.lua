@@ -3,7 +3,9 @@ local packer = require 'packer'
 packer.init {}
 packer.reset()
 
-require 'plugins.load'
+-- Uncomment this line to download plugins while setting up this config first time
+--require 'plugins.load'
+
 require 'plugins.cmp-buffer_conf'
 require 'plugins.cmp-lsp_conf'
 require 'plugins.cmp-luasnip_conf'

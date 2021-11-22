@@ -11,6 +11,8 @@ use {
     run = ':TSUpdate'
 }
 
+--require 'nvim_treesitter.install'.complilers = { "clang" }
+
 require'nvim-treesitter.configs'.setup {
     highlight = {
         enable = true,

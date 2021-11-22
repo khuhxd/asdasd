@@ -1,3 +1,3 @@
-require 'colors.load'
+--require 'colors.load'
 
 require 'colors.tokyonight'
