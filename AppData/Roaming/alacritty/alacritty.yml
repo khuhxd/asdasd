@@ -419,11 +419,16 @@ colors:
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-shell:
-  program: powershell 
-  args:
-    - -nologo
 
+# shell:
+#   program: powershell 
+#   args:
+#     - -nologo
+
+shell:
+  program: wsl
+  args:
+    - -d Ubuntu
 # Startup directory
 #
 # Directory the shell is started in. If this is unset, or `None`, the working

@@ -1,3 +1,6 @@
+# Set startup directory
+Set-Location C:\Users\khuhxd\Projects\games
+
 # Add alias for git --bare dotfiles (config) repository
 function dotfiles { & git --git-dir=$HOME/.dotfiles --work-tree=$HOME $args }
 
