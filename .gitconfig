@@ -1,0 +1,7 @@
+[user]
+	name = Ratibor Siryi
+	email = ratibor.siryi@gmail.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
